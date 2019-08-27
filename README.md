@@ -33,7 +33,9 @@ Constraints:
 1.	Some form of interpretability.
 
 2. Machine Learning Problem 
+
 2.1 Data 
+
 2.1.1 Data Overview 
 
 Get the data from : https://www.kaggle.com/netflix-inc/netflix-prize-data/data
@@ -61,15 +63,18 @@ Dates have the format YYYY-MM-DD.
 2.2 Mapping the real world problem to a Machine Learning Problem 
 
 2.2.1 Type of Machine Learning Problem 
+
 For a given movie and user we need to predict the rating would be given by him/her to the movie. 
 The given problem is a Recommendation problem 
 It can also seen as a Regression problem 
 
 2.2.2 Performance metric 
+
 •	Mean Absolute Percentage Error: https://en.wikipedia.org/wiki/Mean_absolute_percentage_error
 •	Root Mean Square Error: https://en.wikipedia.org/wiki/Root-mean-square_deviation
 
 2.2.3 Machine Learning Objective and Constraints 
+
 1.	Minimize RMSE.
 2.	Try to provide some interpretability.
 
